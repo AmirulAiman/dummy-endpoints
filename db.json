@@ -10,5 +10,12 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "todos": {
+    { "id": 1, "title": "Todo #1", "description": "Description for Todo #1"},
+    { "id": 2, "title": "Todo #2", "description": "Description for Todo #2"},
+    { "id": 3, "title": "Todo #3", "description": "Description for Todo #3"},
+    { "id": 4, "title": "Todo #4", "description": "Description for Todo #4"},
+    { "id": 5, "title": "Todo #5", "description": "Description for Todo #5"}
   }
 }
