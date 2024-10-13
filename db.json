@@ -5,12 +5,12 @@
     { "id": 3, "email": "jane.doe@dummy.test", "password": "abcd1234", "type":"user", "name":"Jane Doe", "telNo":"0148527536" },
     { "id": 4, "email": "eric.simon@dummy.test", "password": "abcd1234", "type":"user", "name":"Eric Simon", "telNo":"0137537852" }
   ],
-  "idType": [
+  "id_types": [
     { "id": 1, "value": "passport", "label": "Passport" },
     { "id": 2, "value": "identity_card", "label": "Kad Pengenalan" },
     { "id": 3, "value": "others", "label": "Lain-lain" }
   ],
-  "reportTypes":[
+  "report_types":[
     { "id": 1, "type": "jalan_rosak","label": "Jalan Rosak"},
     { "id": 2, "type": "jalan_berlubang","label": "Jalan Berlubang"},
     { "id": 3, "type": "lampu_isyarat","label": "Lampu Isyarat"},
