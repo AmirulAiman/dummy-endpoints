@@ -1,21 +1,36 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "users": [
+    { "id": 1, "email": "aaiman0014@gmail.test", "password": "abcd1234", "type": "user", "name":"Amirul Aiman Bin Abdullah", "telNo": "0145047396" },
+    { "id": 2, "email": "john.doe@dummy.test", "password": "abcd1234", "type":"user", "name":"John Doe", "telNo":"0115247835" },
+    { "id": 3, "email": "jane.doe@dummy.test", "password": "abcd1234", "type":"user", "name":"Jane Doe", "telNo":"0148527536" },
+    { "id": 4, "email": "eric.simon@dummy.test", "password": "abcd1234", "type":"user", "name":"Eric Simon", "telNo":"0137537852" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "idType": [
+    { "id": 1, "value": "passport", "label": "Passport" },
+    { "id": 2, "value": "identity_card", "label": "Kad Pengenalan" },
+    { "id": 3, "value": "others", "label": "Lain-lain" }
   ],
-  "profile": {
-    "name": "typicode"
-  },
-  "todos": [
-    { "id": 1, "title": "Todo #1", "description": "Description for Todo #1"},
-    { "id": 2, "title": "Todo #2", "description": "Description for Todo #2"},
-    { "id": 3, "title": "Todo #3", "description": "Description for Todo #3"},
-    { "id": 4, "title": "Todo #4", "description": "Description for Todo #4"},
-    { "id": 5, "title": "Todo #5", "description": "Description for Todo #5"}
+  "reportTypes":[
+    { "id": 1, "type": "jalan_rosak","label": "Jalan Rosak"},
+    { "id": 2, "type": "jalan_berlubang","label": "Jalan Berlubang"},
+    { "id": 3, "type": "lampu_isyarat","label": "Lampu Isyarat"},
+    { "id": 4, "type": "lampu_jalan","label": "Lampu Jalan"},
+    { "id": 5, "type": "papan_tanda","label": "Papan Tanda"},
+    { "id": 6, "type": "kemudahan_awam","label": "Kemudahan Awam"},
+    { "id": 7, "type": "perabot_jalan","label": "Perabot Jalan"},
+    { "id": 8, "type": "tanah_runtuh","label": "Tanah Runtuh"},
+    { "id": 9, "type": "garisan_jalan","label": "Garisan Jalan"},
+    { "id": 10, "type": "halangan","label": "Halangan"},
+    { "id": 11, "type": "lain_lain","label": "Lain-lain"}
+  ],
+  "reports": [
+    { "id": 1, "status_desc":"selesai","status_code":"S","jenis_aduan":"jalan_rosak","detail_aduan":"Jalan rosak di depan rumah","created_by":1, "created_at":"2023-10-11 10:32:00"},
+    { "id": 2, "status_desc":"dalam_perhatian","status_code":"P","jenis_aduan":"jalan_berlubang","detail_aduan":"Jalan rosak di depan rumah","created_by":2, "created_at":"2023-10-09 10:32:00"},
+    { "id": 3, "status_desc":"dalam_perhatian","status_code":"P","jenis_aduan":"perabot_jalan","detail_aduan":"Perabot rosak di tengah jalan","created_by":3, "created_at":"2023-10-11 15:40:00"},
+    { "id": 4, "status_desc":"selesai","status_code":"S","jenis_aduan":"lampu_isyarat","detail_aduan":"Lampu isyarat rosak di persimpangan","created_by":1, "created_at":"2023-10-10 12:10:00"},
+    { "id": 5, "status_desc":"selesai","status_code":"S","jenis_aduan":"lampu_isyarat","detail_aduan":"Lampu isyarat tak menyala.","created_by":2, "created_at":"2023-10-10 13:32:00"}
+  ],
+  "settings":[
+    { "id": 1, "user_id":null,"configs":{"theme":"","lefty": false}}
   ]
 }
