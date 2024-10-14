@@ -1,27 +1,10 @@
 {
   "users": [
-    { "id": 1, "email": "aaiman0014@gmail.test", "password": "abcd1234", "type": "user", "name":"Amirul Aiman Bin Abdullah", "telNo": "0145047396" },
+    { "id": 1, "email": "aaiman0014@gmail.test", "password": "abcd1234", "type": "admin", "name":"Amirul Aiman Bin Abdullah", "telNo": "0145047396" },
     { "id": 2, "email": "john.doe@dummy.test", "password": "abcd1234", "type":"user", "name":"John Doe", "telNo":"0115247835" },
     { "id": 3, "email": "jane.doe@dummy.test", "password": "abcd1234", "type":"user", "name":"Jane Doe", "telNo":"0148527536" },
-    { "id": 4, "email": "eric.simon@dummy.test", "password": "abcd1234", "type":"user", "name":"Eric Simon", "telNo":"0137537852" }
-  ],
-  "id_types": [
-    { "id": 1, "value": "passport", "label": "Passport" },
-    { "id": 2, "value": "identity_card", "label": "Kad Pengenalan" },
-    { "id": 3, "value": "others", "label": "Lain-lain" }
-  ],
-  "report_types":[
-    { "id": 1, "type": "jalan_rosak","label": "Jalan Rosak"},
-    { "id": 2, "type": "jalan_berlubang","label": "Jalan Berlubang"},
-    { "id": 3, "type": "lampu_isyarat","label": "Lampu Isyarat"},
-    { "id": 4, "type": "lampu_jalan","label": "Lampu Jalan"},
-    { "id": 5, "type": "papan_tanda","label": "Papan Tanda"},
-    { "id": 6, "type": "kemudahan_awam","label": "Kemudahan Awam"},
-    { "id": 7, "type": "perabot_jalan","label": "Perabot Jalan"},
-    { "id": 8, "type": "tanah_runtuh","label": "Tanah Runtuh"},
-    { "id": 9, "type": "garisan_jalan","label": "Garisan Jalan"},
-    { "id": 10, "type": "halangan","label": "Halangan"},
-    { "id": 11, "type": "lain_lain","label": "Lain-lain"}
+    { "id": 4, "email": "eric.simon@dummy.test", "password": "abcd1234", "type":"user", "name":"Eric Simon", "telNo":"0137537852" },
+    { "id": 5, "email": "ted.lasso@dummy.test", "password": "abcd1234", "type":"user", "name":"Ted Lasso", "telNo":"0137537852" }
   ],
   "reports": [
     { "id": 1, "status_desc":"selesai","status_code":"S","jenis_aduan":"jalan_rosak","detail_aduan":"Jalan rosak di depan rumah","created_by":1, "created_at":"2023-10-11 10:32:00"},
@@ -30,7 +13,31 @@
     { "id": 4, "status_desc":"selesai","status_code":"S","jenis_aduan":"lampu_isyarat","detail_aduan":"Lampu isyarat rosak di persimpangan","created_by":1, "created_at":"2023-10-10 12:10:00"},
     { "id": 5, "status_desc":"selesai","status_code":"S","jenis_aduan":"lampu_isyarat","detail_aduan":"Lampu isyarat tak menyala.","created_by":2, "created_at":"2023-10-10 13:32:00"}
   ],
-  "settings":[
-    { "id": 1, "user_id":null,"configs":{"theme":"","lefty": false}}
-  ]
+  "notifications":[
+    {"id":1, "title": "Amaran Tanah runtuh", "subtitle":"Sila berhati-hati akan sebarang tanda tanah runtuh. Sila laporkan sebarang kejadian tanah runtuh berhampiran anda.", "created_at":"2021-10-24 01:00:00"},
+    {"id":2, "title": "Penutupan jalan Mutiara Heigh 2", "subtitle":"Pemberitahuan bahawa Jalan Mutiara Height 2 akan ditutup untuk kerja-kerja pembaikan dan penurapan jalan. Segala kesulitan amat dikesali.", "created_at":"2023-10-24 01:00:00"},
+    {"id":3, "title": "Penutupan Jalan Bulatan Kemerdekaan", "subtitle":"Pemberitahuan bahawa Jalan Bulatan Kemerdekaan akan ditutup sementara untuk kerja-kerja pembaikan jalan.", "created_at":"2024-08-24 01:00:00"},
+    {"id":4, "title": "Penutupan sebahagian jalan berdekatan Cheras Mall", "subtitle":"Penutupan sebahagian jalan berdekatan Metri Mall akan dijalankan untuk kerja-kerja pembaikian lampu jalan, harap pengguna dapat bersabar hingga kerja-kerja pembaikian selesai.", "created_at":"2021-09-24 01:00:00"},
+    {"id":5, "title": "Lampu Jalan Rosak", "subtitle":"Pihak kami cuba selelsaikan secepat mungkin", "created_at":"2024-11-24 01:00:00"}
+  ],
+  "app_library":{
+    "id_types": [
+      { "id": 1, "value": "passport", "label": "Passport" },
+      { "id": 2, "value": "identity_card", "label": "Kad Pengenalan" },
+      { "id": 3, "value": "others", "label": "Lain-lain" }
+    ],
+    "report_types":[
+      { "id": 1, "type": "jalan_rosak","label": "Jalan Rosak"},
+      { "id": 2, "type": "jalan_berlubang","label": "Jalan Berlubang"},
+      { "id": 3, "type": "lampu_isyarat","label": "Lampu Isyarat"},
+      { "id": 4, "type": "lampu_jalan","label": "Lampu Jalan"},
+      { "id": 5, "type": "papan_tanda","label": "Papan Tanda"},
+      { "id": 6, "type": "kemudahan_awam","label": "Kemudahan Awam"},
+      { "id": 7, "type": "perabot_jalan","label": "Perabot Jalan"},
+      { "id": 8, "type": "tanah_runtuh","label": "Tanah Runtuh"},
+      { "id": 9, "type": "garisan_jalan","label": "Garisan Jalan"},
+      { "id": 10, "type": "halangan","label": "Halangan"},
+      { "id": 11, "type": "lain_lain","label": "Lain-lain"}
+    ]
+  }
 }
