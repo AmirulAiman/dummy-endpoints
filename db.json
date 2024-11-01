@@ -77,7 +77,8 @@
       "location": "M2",
       "room": "PRSDC",
       "rackNo": "4"
-    },{
+    },
+    {
       "id": 5,
       "hardwareName": "EMC VNX DAE - 2",
       "label": "SAN-M2-12",
