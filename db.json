@@ -44,7 +44,7 @@
   "chirps": [
     {
       "id": "e7b8a9f4-8c3b-4d8b-9f8e-1c2a3b4d5e6f1",
-      "userId": "9a4fa136-d446-4055-93f8-31b1fcf03315",
+      "user_id": "9a4fa136-d446-4055-93f8-31b1fcf03315",
       "content": "Hello, World!",
       "likes": 0,
       "replies": 0,
@@ -52,7 +52,7 @@
     },
     {
       "id": "3f50c9e1-8f2b-4b7a-8e2d-1b3e5f4a6c7d",
-      "userId": "26764dee-c599-493c-9e19-47b2c469de84",
+      "user_id": "26764dee-c599-493c-9e19-47b2c469de84",
       "content": "This is a test chirp.",
       "likes": 0,
       "replies": 0,
@@ -60,11 +60,19 @@
     },
     {
       "id": "b1a8f9e4-4d3b-4b8a-8b8a-4e8b8a4d3b4b",
-      "userId": "82e1ae52-30f0-4c5a-8760-f6c5d0811c5d",
+      "user_id": "82e1ae52-30f0-4c5a-8760-f6c5d0811c5d",
       "content": "This is another test chirp.",
       "likes": 0,
       "replies": 0,
       "timestamp": "2025-03-16T12:00:00"
+    },
+    {
+      "id": "ee54884f-d6b3-4c67-b5a4-9ef798d877bd",
+      "user_id": "f9b6c27b-9446-4a70-9f5e-7c9910bf3d63",
+      "content": "Guess what?, here another test chirp.",
+      "likes": 0,
+      "replies": 0,
+      "timestamp": "2025-03-17T12:00:00"
     }
   ],
   "replies": [
@@ -81,6 +89,14 @@
       "user_id": "26764dee-c599-493c-9e19-47b2c469de84",
       "chirp_id": "3f50c9e1-8f2b-4b7a-8e2d-1b3e5f4a6c7d",
       "content": "This is another test reply.",
+      "likes": 0,
+      "timestamp": "2025-03-16T12:00:00"
+    },
+    {
+      "reply_id": "048f681a-4ed5-463d-99c2-17bd0fe38545",
+      "user_id": "82e1ae52-30f0-4c5a-8760-f6c5d0811c5d",
+      "chirp_id": "ee54884f-d6b3-4c67-b5a4-9ef798d877bd",
+      "content": "Nice guess.",
       "likes": 0,
       "timestamp": "2025-03-16T12:00:00"
     }
